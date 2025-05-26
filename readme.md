@@ -6,7 +6,12 @@ Proyek ini adalah implementasi end-to-end dari sebuah alur kerja Machine Learnin
 
 ## 📊 Dataset
 
-Dataset yang digunakan dalam proyek ini adalah `Sleep_Quality_Dataset.txt`. Dataset ini berisi berbagai fitur demografi dan gaya hidup yang berpotensi memengaruhi kualitas tidur.
+Dataset yang digunakan dalam proyek ini adalah **Sleep Quality Dataset**. Dataset ini berisi berbagai fitur demografi dan gaya hidup yang berpotensi memengaruhi kualitas tidur.
+
+Anda dapat mengunduh dataset ini dari Kaggle:
+[Sleep Quality Dataset on Kaggle](https://www.kaggle.com/datasets/hedyma/sleep-quality-dataset)
+
+Pastikan file `Sleep_Quality_Dataset.txt` ditempatkan di direktori yang sama dengan skrip Python Anda.
 
 ## 🚀 Metodologi & Alur Kerja
 
@@ -56,22 +61,20 @@ Proyek ini dikembangkan menggunakan Python dan memanfaatkan pustaka-pustaka beri
 
 1.  **Kloning repositori ini:**
     ```bash
-    git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
-    cd YourRepoName
+    git clone [https://github.com/jekshelby/SleepPredictionML.git]
     ```
 2.  **Instal dependensi yang diperlukan:**
     ```bash
     pip install pandas numpy matplotlib seaborn scikit-learn fairlearn
     ```
-3.  **Pastikan dataset ada:** Tempatkan file `Sleep_Quality_Dataset.txt` di direktori yang sama dengan skrip Python.
+3.  **Pastikan dataset ada:** Unduh `Sleep_Quality_Dataset.txt` dari tautan Kaggle di atas dan tempatkan di direktori yang sama dengan skrip Python.
 4.  **Jalankan skrip Python:**
     ```bash
-    python your_main_script_name.py
+    SleepPrediciton.ipynb
     ```
-    (Ganti `your_main_script_name.py` dengan nama file Python utamamu)
-
+    
 ## ✍️ Kontributor
 
-- [Nama Anda]
+- [Muhammad Dzaky Ahnaf](https://github.com/jekshelby).
 
 ---
